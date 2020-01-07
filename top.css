@@ -1,0 +1,276 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+
+header {
+    height: 50px;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ffffff;
+    color: white;
+    position: fixed;
+    border-bottom: #404040;
+  }
+
+  /* トキノマロゴ変更 */
+  header svg{
+      width: 200px;
+      position: relative;
+      top:-30px;
+  }
+  header .headline{
+      line-height: 40px;
+      float: left;
+      margin-left: 100px;
+  }
+
+  /* navlist　変更 */
+  .nav-list {
+      line-height: 40px;
+      float: left;
+      margin-left: 300px;
+      list-style: none;
+  }
+  .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+  }
+  a{
+      text-decoration: none;
+      color: #000000;
+  }
+
+  /*  */
+  .fixed-bg {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+.top{
+    background-image: url(../練習/study-789631_1280.jpg)
+}
+
+.h3a{
+    margin: 0;
+    padding-top:250px; 
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.h3b{
+    margin: 0; 
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+}
+
+.top h1{
+    font-size: 100px;
+    font-weight: 100;
+    color: #ffffff;
+    letter-spacing: 11.67px;
+    text-align: center;
+    margin-top:32px;
+    margin-bottom: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* トキノマ */
+.description{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.h2a{
+    font-size:30px;
+    text-align: center;
+    margin-top:100px; 
+    font-weight: 100;
+}
+
+.h2b{
+    font-size:30px;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+.description p{
+    font-size: 14px;
+    text-align: center;
+    color: #4E4C4C;
+    width: 500px;
+    margin-left: 150px;
+    line-height: 2;
+}
+
+/* 料金 */
+.price{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.price h2{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top:100px;
+}
+
+.price p{
+    font-size: 14px;
+    text-align: center;
+    color: #4E4C4C;
+    margin-bottom:50px;
+}
+
+.price h1{
+    text-align: center;
+}
+
+/* 会議室 */
+.c-room{
+    width: 800px;
+    margin: 0 auto;
+}
+.c-room h2{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.c-room p{
+    font-size: 14px;
+    text-align: center;
+    color: #4E4C4C;
+    margin-bottom:50px;
+}
+.c-room img{
+    width: 700px;
+}
+
+.c-room-price p{
+    font-size: 14px;
+    text-align: center;
+    color: #4E4C4C;  
+    margin: 20px 0;
+}
+
+.c-room h1{
+    text-align: center;
+}
+
+/* アクセス */
+.access{
+width: 900px;
+margin: 0 auto;
+}
+.access h2{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+}
+.address{
+    width: 800px;
+    margin:0 auto;
+}
+
+.access address{
+    font-size: 14px;
+    text-align: left;
+    margin-top:50px;
+}
+
+.address p{
+    font-size: 14px;
+    text-align: left;
+}
+
+/* googlemap設定 */
+.ggmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+     
+    .ggmap iframe,
+    .ggmap object,
+    .ggmap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+ /*　お問い合わせ */
+.confirmation{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.confirmation h2{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.confirmation p{
+    font-size: 14px;
+    text-align: center;
+    color: #4E4C4C;  
+    margin: 20px 0;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding-top:50px; 
+    bottom: 0;
+}
+address{
+    width: 300px;
+    height: 150px;
+}
+.tokinoma{
+    display: inline-block;
+    width: 300px;
+    height:150px;
+    background-color: #4E4C4C;
+}
+
+.tokinoma p{
+    border-bottom: #ffffff ;
+    margin: 0;
+    
+}
+
+.unei{
+    display: inline-block;
+    width: 300px;
+    height:150px;
+    background-color: #4E4C4C;
+    margin-top:30px;
+}
+
+.unei p{
+    margin:0;
+}
