@@ -165,6 +165,10 @@ header {
     margin: 20px 0;
 }
 
+.price_p{
+    background: linear-gradient(transparent 60%, #66FFCC 60%);
+}
+
 .c-room h1{
     text-align: center;
 }
